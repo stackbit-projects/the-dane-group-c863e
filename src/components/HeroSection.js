@@ -32,6 +32,7 @@ export default class HeroSection extends React.Component {
             <section
                 id={sectionId}
                 className={classNames('section', 'hero', {
+                    
                     'has-border': hasBorder,
                     'has-cover': backgroundImage,
                     'bg-none': backgroundColor === 'none',
